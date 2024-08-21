@@ -1,0 +1,28 @@
+.foodItem {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.5rem 1rem 1rem;
+  grid-template-areas: "image title none" "image qty  none" "image  otherItem  price";
+  margin: 0rem 0 1rem;
+}
+
+.image {
+  grid-area: image;
+}
+
+.itemTitle {
+  grid-area: title;
+}
+.itemQty {
+  grid-area: qty;
+  font-size: 0.7rem;
+}
+.otherItem {
+  grid-area: otherItem;
+  font-size: 0.8rem;
+}
+.price {
+  grid-area: price;
+  text-align: right !important;
+}

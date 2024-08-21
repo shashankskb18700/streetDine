@@ -1,0 +1,12 @@
+{
+  "orderIcon": "T2",
+  "tokenNumber": "Token - 7",
+  "serveType": "Dine in",
+  "orderNumber": "#021",
+  "status": "Not paid",
+  "items": [
+    { "itemName": "Pizza", "qty": "5", "price": "350" },
+    { "itemName": "Burger", "qty": "6", "price": "150" },
+    { "itemName": "Pasta", "qty": "9", "price": "70" }
+  ]
+}

@@ -1,0 +1,119 @@
+.orderInfo {
+  width: 500px;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Roboto";
+  padding: 0 1rem;
+}
+.orderInfo div:first-child {
+  font-weight: 500;
+
+  width: 50%;
+  font-size: 1.45rem;
+}
+.orderInfo div:nth-child(2) {
+  width: 50%;
+  font-size: 1em;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.orderInfo div:nth-child(2) span:nth-child(1) {
+  background-color: rgb(53, 110, 231);
+  padding: 0.3rem 1rem;
+  border-radius: 0.45rem;
+}
+
+.orderInfo div:nth-child(2) span:nth-child(2) {
+  border: 2px solid rgb(53, 110, 231);
+  padding: 0.3rem 1rem;
+  border-radius: 0.35rem;
+}
+
+.orderInfo div:nth-child(3) {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.orderInfo p {
+  width: 100%;
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.extra {
+  display: inline-flex;
+  text-align: center;
+}
+.extraCont {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.extraCont span {
+  padding: 0.3rem 0.5rem;
+  color: rgb(245, 245, 245);
+  border-radius: 0.35rem;
+}
+
+.extraCont span:nth-child(1) {
+  background-color: rgb(255, 216, 0);
+}
+.extraCont span:nth-child(2) {
+  background-color: rgb(55 144 240);
+}
+.extraCont span:nth-child(3) {
+  background-color: rgb(21, 22, 24);
+}
+.extraCont span:nth-child(4) {
+  background-color: rgb(0 128 1);
+}
+.extra svg {
+  width: 1rem;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.text {
+  background-color: rgb(236, 240, 241);
+  width: 90%;
+  display: flex;
+  justify-content: left !important;
+  flex-direction: column;
+  padding: 0.5rem 2rem;
+}
+
+.paymentType {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.paymentType span:nth-child(1) {
+  background-color: rgb(0 128 1);
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+  border-radius: 0.35rem;
+}
+.paymentType span:nth-child(2) {
+  background-color: rgb(251 231 124);
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+  border-radius: 0.35rem;
+  margin-top: 1rem;
+}
+
+.itemtag {
+  font-size: 0.8rem;
+  margin: 1rem 0 0 0 !important;
+  /* background-color: red; */
+}

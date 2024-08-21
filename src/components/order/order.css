@@ -1,0 +1,122 @@
+.orderComponent {
+  width: 380px;
+  padding: 1rem 1rem;
+  background-color: rgb(245, 245, 245);
+  border-radius: 0.35rem;
+  margin-top: 1rem;
+}
+
+.orderDetail {
+  height: fit-content;
+}
+.orderComponent > div:first-child {
+  display: grid;
+  grid-template-columns: 3rem 1fr 1fr 1fr;
+  grid-template-rows: 1rem 1rem;
+  grid-template-areas: "icon tokenNumber none  serveType" "icon orderNumber none  paymentStatus";
+  gap: 1rem;
+}
+
+.orderIcon {
+  grid-area: icon;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: rgb(255, 216, 0);
+  padding: 1rem 1rem;
+  border-radius: 0.65rem;
+  font-weight: 600;
+  /* font-size: 1.3rem; */
+}
+.tokenNumber {
+  grid-area: tokenNumber;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.serveType {
+  grid-area: serveType;
+  background-color: rgb(151, 181, 244);
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.45rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: center;
+}
+.orderNumber {
+  grid-area: orderNumber;
+  font-weight: 400;
+}
+.paymentStatus {
+  grid-area: paymentStatus;
+}
+
+.orderComponent > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1rem;
+}
+.instructions p {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.foodItems p {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.orderComponent svg {
+  width: 1rem;
+
+  margin: 0;
+  margin-right: 14px;
+  background-color: ;
+}
+.invoice P {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.55rem;
+  text-align: center;
+  color: rgb(236, 240, 241);
+  background-color: rgb(55 144 240);
+}
+
+.paymentOption {
+  font-size: 0.9rem;
+  font-weight: 400 !important;
+}
+.paymenttype p {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.55rem;
+  text-align: center;
+  color: rgb(236, 240, 241);
+  background-color: rgb(0 128 1);
+}
+.foodItems {
+  display: flex;
+  flex-direction: column;
+}
+.foodItems p {
+  width: 30px;
+}
+.foodtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  color: rgba(31, 30, 30, 0.379);
+  margin-bottom: 1rem;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* .orderComponent > div:nth */
